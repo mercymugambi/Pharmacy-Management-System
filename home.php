@@ -32,9 +32,7 @@ require_once('include/session.php');
 
 </head>
 <body>
-<style>
-        body {background-color: powderblue;}
-        </style>
+
     <div id="wrapper">
         <!--Navigation--->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -71,19 +69,19 @@ require_once('include/session.php');
                         <a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></i>Home</a>
                     </li>
                     <li>
-                        <a href="item.php"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></i>Item List</a>
+                        <a href="../PHARM/class/Item.php"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></i>Item List</a>
                     </li>
                     <li>
-                        <a href="product.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></i>Product Profile</a>
+                        <a href="Product.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></i>Product Profile</a>
                     </li>
                     <li>
-                        <a href="stock.php"><span class="glyphicon glyphicon-book" aria-hidden="true"></span></i>Stocks</a>
+                        <a href="../PHARM/class/Stock.php"><span class="glyphicon glyphicon-book" aria-hidden="true"></span></i>Stocks</a>
                     </li>
                     <li>
-                        <a href="expired.php"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></i>Expired</a>
+                        <a href="../PHARM/class/Expired.php"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></i>Expired</a>
                     </li>
                     <li>
-                        <a href="sales.php"><span class="glyphicon glyphicon-record" aria-hidden="true"></span></i>Sales</a>
+                        <a href="../PHARM/class/Sales.php"><span class="glyphicon glyphicon-record" aria-hidden="true"></span></i>Sales</a>
                     </li>    
                 </ul>
 

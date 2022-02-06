@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
 
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
     <title>Pharmacy System</title>
-
 
 </head>
 <body>
     <br>
     <br>
     <!-- Login Form -->
-
+    
+    <div class="bg-img">
     <div class="container">
         <div id="login-form">
             <h3>User Login</h3>
@@ -28,6 +28,7 @@
             </fieldset>
         </div>
     </div>  
+    </div>
     <!-- End form -->
     
 </body>

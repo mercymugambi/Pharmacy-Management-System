@@ -1,4 +1,5 @@
 <?php
+/*
 if(session_status()==PHP_SESSION_NONE){
     session_start();//start session if session not started
 }
@@ -6,3 +7,5 @@ if(session_status()==PHP_SESSION_NONE){
 if(!isset($_SESSION['logged_id'])){
     die('Access is Denied!');
 }//end isset
+*/
+?>
